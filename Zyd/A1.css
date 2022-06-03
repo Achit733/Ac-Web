@@ -1,0 +1,162 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+video{
+	z-index: -1;
+	position: fixed;
+}
+header{
+	height: 150px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	display: flex;
+}
+.logo{
+	height: 150px;
+	width: 30%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.a1{
+	height: 150px;
+	width: 70%;
+	position: absolute;
+	top: 0px;
+	left: 30%;
+}
+.a1 a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 150px;
+	float: right;
+}
+.a1 a:hover{
+	color: aqua;
+	border: solid 1px aqua;
+	font-size: 30px;
+}
+#main{
+    height: 600px;
+    width: 100%;
+    position: absolute;    
+    top:150px;
+    left: 0px;
+}
+.m1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.m1-1{
+    height: 40px;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+.kon{
+	position: absolute;
+	top:100px;
+	left: 0px;
+	height: 500px;
+	width: 100%;
+	color:#fff;
+	line-height: 500px;
+	text-align: center;
+	font-size: 30px;
+}
+.main1{
+	position: absolute;
+	top: 600px;
+	left: 0px;
+	height: 600px;
+	width: 100%;
+	border-radius: 0px;
+	background: #e0e0e0;
+	box-shadow: inset 25px 25px 50px #bcbcbc,
+            inset -25px -25px 50px #ffffff;
+}
+.mainl{
+	position: relative;
+	top:0px;
+	left: 0px;
+
+	width: 25%;
+	height: 600px;
+}
+.mainm{
+	position: absolute;
+	top: 0px;
+	left: 25%;
+	width: 50%;
+	height: 600px;
+}
+.mainr{
+	position: absolute;
+	top:0px;
+	left: 75%;
+	width: 25%;
+	height: 600px;
+}
+.m2text{
+	color: #fff;
+	margin-bottom: 20px;
+	
+}
+.m2textp{
+	color:#3D3A3A;
+	margin-bottom: 10px;
+}
+.mainrh1{
+	margin-top: 20px;
+	color: #fff;
+	padding-left: 20px;
+	border-top: 2px solid #ccc;
+}
+.mainrp{
+	padding-left: 20px;
+	color:#fff;
+	font-weight: bold;
+}
+.mainr1{
+	height: 300px;
+	width: 100%;
+	
+}
+.mainr2{
+	margin-left: 40px;
+	height: 200px;
+	width: 200px;
+	border-radius: 121px;
+	background: #e0e0e0;
+	box-shadow:  5px 5px 9px #808080,
+             -5px -5px 9px #ffffff;
+	background-image: url("imges/OIP-C.jpg");
+	background-repeat: no-repeat;
+	
+}
+footer{
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 1200px;
+    color: #fff;
+    line-height: 80px;
+    text-align: center;
+	background-color: #9B9999;
+}
